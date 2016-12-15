@@ -1,0 +1,35 @@
+{
+  "name": "code-sample",
+  "version": "1.0.0",
+  "description": "'Sample ROR with React project'",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdorsey16/code-sample.git"
+  },
+  "author": "Bryan Dorsey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdorsey16/code-sample/issues"
+  },
+  "homepage": "https://github.com/bdorsey16/code-sample#readme",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "browserify": "^13.1.1",
+    "browserify-incremental": "^3.1.1",
+    "reactify": "^1.1.1"
+  }
+}
