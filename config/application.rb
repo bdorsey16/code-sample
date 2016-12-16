@@ -30,5 +30,6 @@ module CodeSample
       end
     end
 
+    config.browserify_rails.commandline_options = "-t reactify --extension=\".jsx\""
   end
 end
